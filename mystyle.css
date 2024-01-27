@@ -1,0 +1,66 @@
+/* Style the services section */
+#services {
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+}
+#services h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.web-services {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  width: 264px;
+}
+.service >div> img{
+  width: 264px;
+  height: 200px;
+  border-radius: 5px;
+}
+.service:hover {
+  -webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.69);
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.69);
+}
+
+.service h3 {
+  color: #000;
+}
+
+.service p {
+  margin-bottom: 10px;
+}
+.service p:nth-child(4) {
+  color: red;
+  font-size: 15px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

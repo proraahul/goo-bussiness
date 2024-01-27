@@ -1,0 +1,35 @@
+/* Responsive styles */
+
+@media only screen and (max-width: 768px){
+    .service {
+        width: 100%;
+    }
+}
+
+/* Media query for screen widths between 768px and 1008px */
+@media only screen and (min-width: 768px) and (max-width: 800px){
+    .web-services{
+        display: flex;
+        justify-content: space-between;
+    }
+    .service{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 838px){
+    .service{
+        width: 320px;
+    }
+}
+@media only screen and (min-width: 838px) and (max-width: 971px){
+    .service{
+        width: 370px;
+    }
+}
+
+@media only screen and (min-width: 971px) and (max-width: 1008px){
+    .service{
+        width: 400px;
+    }
+}
